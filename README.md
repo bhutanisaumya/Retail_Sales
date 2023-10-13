@@ -1,7 +1,17 @@
-Adv_MLA_AT2
+AdvMLA_AT2
 ==============================
+This project is centred around developing a robust predictive and forecasting machine learning model to predict sales revenue accurately
+for an American retailer.
 
-A short description of the project.
+**Model 1:** A predictive model that can provide accurate sales revenue predictions for an item at a particular store, on any given date. 
+LightGBM Model has been used
+LightGBM is chosen for its efficiency and speed, making it suitable for large datasets.
+It offers high predictive performance and is particularly effective when dealing with complex, high-dimensional data.
+
+
+**Model 2:** A forecasting model that on a particular date, forecasts revenue predictions for the next 7 days.
+SARIMA Model has been used
+As it effectively addresses the seasonality present in the dataset
 
 Project Organization
 ------------
@@ -52,6 +62,34 @@ Project Organization
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 
 
---------
+**Initializing and Pushing to a Remote Repository**
+--------------------------------------------------------
+
+1. git init: Initializes a new Git repository in the current directory.
+
+2. git remote add origin git@github.com:bhutanisaumya/Adv_MLA_AT2.git: Sets up a remote repository named "origin" with the provided URL.
+
+3. git add .: Stages all the changes in the current directory for the next commit.
+
+4. git commit -m "first commit": Commits the staged changes with a descriptive commit message.
+
+5. git push --set-upstream origin main: Pushes the committed changes to the remote repository's "main" branch, setting it as the upstream branch for future pushes.
+
+
+
+**Steps to access the Project**
+--------------------------------
+
+1. Clone the Repository: Using the git clone command, copy the project files from the online Git repository to your local computer.
+
+2. Access the Reository: Open the cmd prompt on your local machine, then go to the directory containing the cloned project.
+
+3. Create a virtual setting: To prevent problems with other projects, it is recommended to a separate environment for the project's dependencies.
+
+4. Install Requirements: Using the pip install command, install the necessary libraries.
+
+5. Execute the Code: Use the notebooks provided in the repository to run the code.
+
+
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>

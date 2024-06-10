@@ -1,17 +1,13 @@
-AdvMLA_AT2
+Predictive and Forecasting Sales Revenue Model
 ==============================
-This project is centred around developing a robust predictive and forecasting machine learning model to predict sales revenue accurately
-for an American retailer.
+**Overview**
+This project focuses on developing robust machine learning models to accurately predict and forecast sales revenue for an American retailer.
 
-**Model 1:** A predictive model that can provide accurate sales revenue predictions for an item at a particular store, on any given date. 
-LightGBM Model has been used
-LightGBM is chosen for its efficiency and speed, making it suitable for large datasets.
-It offers high predictive performance and is particularly effective when dealing with complex, high-dimensional data.
+**Model 1: Predictive Sales Revenue Model** 
+A predictive model using LightGBM to provide accurate sales revenue predictions for an item at a specific store on any given date. LightGBM is chosen for its efficiency and speed, making it suitable for large, complex, high-dimensional data.
 
-
-**Model 2:** A forecasting model that on a particular date, forecasts revenue predictions for the next 7 days.
-SARIMA Model has been used
-As it effectively addresses the seasonality present in the dataset
+**Model 2: Forecasting Sales Revenue Model** 
+A forecasting model using SARIMA to predict revenue for the next 7 days from any given date. SARIMA is chosen for its effectiveness in addressing the seasonality present in the dataset.
 
 Project Organization
 ------------
